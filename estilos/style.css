@@ -91,6 +91,8 @@ body{
 .usu2{
     position: absolute;
     background-color: #FFFFFF;
+    font-family:'MyriadProLight';
+    font-size: 1.35vi;
     border-radius: 1.08vi;
     border: 0.1vi solid #707070;
     width: 35vi;
@@ -108,6 +110,8 @@ body{
 .cont2{
     position: absolute;
     background-color: #FFFFFF;
+    font-family:'MyriadProLight';
+    font-size: 1.35vi;
     border-radius: 1.08vi;
     border: 0.1vi solid #707070;
     width: 35vi;
