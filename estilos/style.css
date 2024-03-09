@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    background-image: url(/media/Fondo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoK{
+    width: 10.2vi;
+    height: 9.2vi;
+}
+.Kario{
+    animation-name: kario;
+    animation-duration: 2s;
+    opacity: 1;
+}
+
+@keyframes kario {
+    0%{opacity: 1;}
+    50%{opacity: 0;}
+    100%{opacity: 1;}
+}
