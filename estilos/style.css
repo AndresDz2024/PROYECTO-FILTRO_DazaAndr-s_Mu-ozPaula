@@ -10,6 +10,11 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+.cuerpo1{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     background-color: black;
     background-image: url(/media/Fondo.png);
     background-size: cover;
@@ -145,6 +150,41 @@ a{
     left: 8vi;
 }
 /*------------Panel Usuario---------------*/
+.cuerpo2{
+    opacity: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    background-image: url(/media/Fondo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: desvanecer;
+    animation-duration: 5s;
+}
+@keyframes desvanecer {
+    0%{opacity: 1;}
+    90%{opacity: 1;}
+    100%{opacity: 0;}
+}
+.logoK2{
+    width: 10.2vi;
+    height: 9.2vi;
+    opacity: 0;
+    animation-name: imagen;
+    animation-delay: 4s;
+    animation-duration: 2s;
+}
+@keyframes imagen {
+    0%{opacity: 1;}
+    90%{opacity: 1;}
+    100%{opacity: 0;}
+}
 .panelUsuario{
     position: absolute;
     background-color: #FFFFFF;
@@ -177,6 +217,7 @@ a{
     top: 13.5vi;
     left: 21.6vi;
 }
+
 .nombre{
     position: absolute;
     font-family:'MyriadProRegular' ;
@@ -192,3 +233,197 @@ a{
     left: 19.7vi;
 }
 /*------------Panel Indicadores---------------*/
+.paginaprincipal{
+    position: absolute;
+    top: 0%;
+    opacity: 1;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    animation-name: desvanecer2;
+    /* animation-duration: 5s; */
+}
+@keyframes desvanecer2 {
+    0%{opacity: 0;}
+    90%{opacity: 0;}
+    100%{opacity: 1;}
+}
+.encabezado{
+    display: flex;
+    align-items: center;
+    border: #707070 solid;
+    height: 10vh;
+    width: 100vw;
+}
+.imgA{
+    position: fixed;
+    left: 13vi;
+    width: 1.5vi;
+    height: 1.5vi;
+}
+.añadir{
+    position: fixed;
+    left: 15vi;
+    font-size: 1vi;
+}
+.imgR{
+    position: fixed;
+    left: 25vi;
+    width: 1.5vi;
+    height: 1.5vi;
+}
+.refrescar{
+    position: fixed;
+    left: 27vi;
+    font-size: 1vi;
+}
+.imgE{
+    position: fixed;
+    left: 37vi;
+    width: 1.5vi;
+    height: 1.5vi;
+}
+.eliminar{
+    position: fixed;
+    left: 39vi;
+    font-size: 1vi;
+}
+.imgL{
+    position: fixed;
+    left: 49vi;
+    width: 1.5vi;
+    height: 1.5vi;
+}
+.imgB{
+    position: fixed;
+    left: 63vi;
+    width: 1.5vi;
+    height: 1.5vi;
+}
+.reportar{
+    position: fixed;
+    left: 65vi;
+    font-size: 1vi;
+}
+.imgP{
+    position: fixed;
+    left: 75vi;
+    width: 1.5vi;
+    height: 1.5vi;
+}
+.ayuda{
+    position: fixed;
+    left: 77vi;
+    font-size: 1vi;
+}
+.configuracion{
+    position: fixed;
+    left: 90vi;
+    width: 1.5vi;
+    height: 1.5vi;
+}
+.notificacion{
+    position: fixed;
+    left: 93vi;
+    width: 1.5vi;
+    height: 1.5vi;
+}
+.fotito{
+    position: fixed;
+    left: 96vi;
+    width: 3vi;
+    height: 3vi;
+}
+@media (max-width: 820px){
+    .encabezado{
+        display: flex;
+        align-items: center;
+        border: #707070 solid;
+        height: 10vh;
+        width: 100vw;
+    }
+    .imgA{
+        position: fixed;
+        left: 2vi;
+        width: 5vi;
+        height: 5vi;
+    }
+    .añadir{
+        position: fixed;
+        left: 8vi;
+        font-size: 2vi;
+    }
+    .imgR{
+        position: fixed;
+        left: 16vi;
+        width: 5vi;
+        height: 5vi;
+    }
+    .refrescar{
+        position: fixed;
+        left: 22vi;
+        font-size: 2vi;
+    }
+    .imgE{
+        position: fixed;
+        left: 32vi;
+        width: 5vi;
+        height: 5vi;
+    }
+    .eliminar{
+        position: fixed;
+        left: 38vi;
+        font-size: 2vi;
+    }
+    .imgL{
+        position: fixed;
+        left: 49vi;
+        width: 5vi;
+        height: 5vi;
+    }
+    .imgB{
+        position: fixed;
+        left: 59vi;
+        width: 5vi;
+        height: 5vi;
+    }
+    .reportar{
+        position: fixed;
+        left: 65vi;
+        font-size: 2vi;
+    }
+    .imgP{
+        position: fixed;
+        left: 74vi;
+        width: 5vi;
+        height: 5vi;
+    }
+    .ayuda{
+        position: fixed;
+        left: 80vi;
+        font-size: 2vi;
+    }
+    .configuracion{
+        position: fixed;
+        left: 88vi;
+        width: 2vi;
+        height: 2vi;
+    }
+    .notificacion{
+        position: fixed;
+        left: 92vi;
+        width: 2vi;
+        height: 2vi;
+    }
+    .fotito{
+        position: fixed;
+        left: 95vi;
+        width: 4vi;
+        height: 4vi;
+    }
+}
