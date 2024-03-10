@@ -144,3 +144,51 @@ a{
     top: 34.5vi;
     left: 8vi;
 }
+/*------------Panel Usuario---------------*/
+.panelUsuario{
+    position: absolute;
+    background-color: #FFFFFF;
+    color: black;
+    width: 48.75vi;
+    height: 28.6vi;
+    border: 0.1vi solid #707070;
+    border-radius: 3.5vi;
+    opacity: 0;
+    text-align: center;
+    animation-name: panelUsuario;
+    animation-duration: 4s;
+}
+@keyframes panelUsuario {
+    0%{opacity: 1;}
+    95%{opacity: 1;}
+    100%{opacity: 0;}
+}
+.Bnuevo{
+    position: absolute;
+    font-family:'MyriadProRegular' ;
+    font-size: 2.084vi;
+    top: 7.5vi;
+    left: 15.6vi;
+}
+.foto{
+    position: absolute;
+    width: 5.521vi;
+    height: 5.521vi;
+    top: 13.5vi;
+    left: 21.6vi;
+}
+.nombre{
+    position: absolute;
+    font-family:'MyriadProRegular' ;
+    font-size: 2.084vi;
+    top: 18vi;
+    left: 12.7vi;
+}
+.Admin{
+    position: absolute;
+    font-family:'MyriadProLight';
+    font-size: 1.07vi;
+    top: 23vi;
+    left: 19.7vi;
+}
+/*------------Panel Indicadores---------------*/
