@@ -58,6 +58,7 @@ body{
 @keyframes panel{
     0%{opacity: 0;}
     40%{opacity: 0;}
+    50%{opacity: 1;}
     100%{opacity: 1;}
 }
 
@@ -165,7 +166,7 @@ a{
     justify-content: center;
     align-items: center;
     animation-name: desvanecer;
-    animation-duration: 5s;
+    animation-duration: 6s;
 }
 @keyframes desvanecer {
     0%{opacity: 1;}
@@ -178,7 +179,7 @@ a{
     opacity: 0;
     animation-name: imagen;
     animation-delay: 4s;
-    animation-duration: 2s;
+    animation-duration: 5s;
 }
 @keyframes imagen {
     0%{opacity: 1;}
@@ -246,30 +247,35 @@ a{
     height: 100vh;
     display: flex;
     animation-name: desvanecer2;
-    /* animation-duration: 5s; */
+    animation-duration: 5s;
 }
 @keyframes desvanecer2 {
     0%{opacity: 0;}
     90%{opacity: 0;}
+    98%{opacity: 0;}
     100%{opacity: 1;}
 }
 .encabezado{
     display: flex;
     align-items: center;
-    border: #707070 solid;
+    border-bottom: #707070 solid 0.1vi;
     height: 10vh;
     width: 100vw;
+    font-family:'MyriadProRegular';
+    color: black;
 }
 .imgA{
     position: fixed;
     left: 13vi;
-    width: 1.5vi;
-    height: 1.5vi;
+    width: 1.62vi;
+    height: 1.62vi;
 }
 .añadir{
     position: fixed;
+    top: 1vi;
     left: 15vi;
-    font-size: 1vi;
+    font-size: 1.25vi;
+    color: black;
 }
 .imgR{
     position: fixed;
@@ -279,47 +285,55 @@ a{
 }
 .refrescar{
     position: fixed;
+    top: 1vi;
     left: 27vi;
-    font-size: 1vi;
+    font-size: 1.25vi;
+    color: black;
 }
 .imgE{
     position: fixed;
     left: 37vi;
-    width: 1.5vi;
-    height: 1.5vi;
+    width: 1.4vi;
+    height: 1.7vi;
 }
 .eliminar{
     position: fixed;
+    top: 1vi;
     left: 39vi;
-    font-size: 1vi;
+    font-size: 1.25vi;
+    color: black;
 }
 .imgL{
     position: fixed;
-    left: 49vi;
-    width: 1.5vi;
-    height: 1.5vi;
+    left: 51vi;
+    width: 2.19vi;
+    height: 1.93vi;
 }
 .imgB{
     position: fixed;
     left: 63vi;
-    width: 1.5vi;
-    height: 1.5vi;
+    width: 1.78vi;
+    height: 1.98vi;
 }
 .reportar{
     position: fixed;
+    top: 1vi;
     left: 65vi;
-    font-size: 1vi;
+    font-size: 1.25vi;
+    color: black;
 }
 .imgP{
     position: fixed;
     left: 75vi;
-    width: 1.5vi;
-    height: 1.5vi;
+    width: 1.78vi;
+    height: 1.78vi;
 }
 .ayuda{
     position: fixed;
+    top: 1vi;
     left: 77vi;
-    font-size: 1vi;
+    font-size: 1.25vi;
+    color: black;
 }
 .configuracion{
     position: fixed;
@@ -343,7 +357,7 @@ a{
     .encabezado{
         display: flex;
         align-items: center;
-        border: #707070 solid;
+        border-bottom: 0.1vi #707070 solid;
         height: 10vh;
         width: 100vw;
     }
