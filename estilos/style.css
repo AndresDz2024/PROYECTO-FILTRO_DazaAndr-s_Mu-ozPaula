@@ -246,7 +246,8 @@ a{
     width: 100vw;
     height: 100vh;
     display: flex;
-    animation-name: desvanecer2;
+    text-align: center;
+    /* animation-name: desvanecer2; */
     animation-duration: 5s;
 }
 @keyframes desvanecer2 {
@@ -272,7 +273,6 @@ a{
 }
 .añadir{
     position: fixed;
-    top: 1vi;
     left: 15vi;
     font-size: 1.25vi;
     color: black;
@@ -285,7 +285,6 @@ a{
 }
 .refrescar{
     position: fixed;
-    top: 1vi;
     left: 27vi;
     font-size: 1.25vi;
     color: black;
@@ -298,7 +297,6 @@ a{
 }
 .eliminar{
     position: fixed;
-    top: 1vi;
     left: 39vi;
     font-size: 1.25vi;
     color: black;
@@ -306,8 +304,8 @@ a{
 .imgL{
     position: fixed;
     left: 51vi;
-    width: 2.19vi;
-    height: 1.93vi;
+    width: 2.2vi;
+    height: 2vi;
 }
 .imgB{
     position: fixed;
@@ -317,7 +315,6 @@ a{
 }
 .reportar{
     position: fixed;
-    top: 1vi;
     left: 65vi;
     font-size: 1.25vi;
     color: black;
@@ -330,7 +327,6 @@ a{
 }
 .ayuda{
     position: fixed;
-    top: 1vi;
     left: 77vi;
     font-size: 1.25vi;
     color: black;
@@ -360,84 +356,85 @@ a{
         border-bottom: 0.1vi #707070 solid;
         height: 10vh;
         width: 100vw;
+        font-family:'MyriadProRegular';
     }
     .imgA{
         position: fixed;
-        left: 2vi;
-        width: 5vi;
+        left: 1.5vi;
+        width: 4.5vi;
         height: 5vi;
     }
     .añadir{
         position: fixed;
-        left: 8vi;
-        font-size: 2vi;
+        left: 6.5vi;
+        font-size: 2.5vi;
     }
     .imgR{
         position: fixed;
-        left: 16vi;
-        width: 5vi;
+        left: 14.5vi;
+        width: 4.5vi;
         height: 5vi;
     }
     .refrescar{
         position: fixed;
-        left: 22vi;
-        font-size: 2vi;
+        left: 20vi;
+        font-size: 2.5vi;
     }
     .imgE{
         position: fixed;
-        left: 32vi;
-        width: 5vi;
+        left: 31vi;
+        width: 4.5vi;
         height: 5vi;
     }
     .eliminar{
         position: fixed;
-        left: 38vi;
-        font-size: 2vi;
+        left: 36vi;
+        font-size: 2.5vi;
     }
     .imgL{
         position: fixed;
-        left: 49vi;
+        left: 48.5vi;
         width: 5vi;
         height: 5vi;
     }
     .imgB{
         position: fixed;
-        left: 59vi;
-        width: 5vi;
+        left: 58vi;
+        width: 4.5vi;
         height: 5vi;
     }
     .reportar{
         position: fixed;
-        left: 65vi;
-        font-size: 2vi;
+        left: 63vi;
+        font-size: 2.5vi;
     }
     .imgP{
         position: fixed;
-        left: 74vi;
-        width: 5vi;
+        left: 73.5vi;
+        width: 4.5vi;
         height: 5vi;
     }
     .ayuda{
         position: fixed;
-        left: 80vi;
-        font-size: 2vi;
+        left: 78.5vi;
+        font-size: 2.5vi;
     }
     .configuracion{
         position: fixed;
-        left: 88vi;
-        width: 2vi;
-        height: 2vi;
+        left: 86.5vi;
+        width: 2.5vi;
+        height: 2.5vi;
     }
     .notificacion{
         position: fixed;
-        left: 92vi;
-        width: 2vi;
-        height: 2vi;
+        left: 90vi;
+        width: 2.5vi;
+        height: 2.5vi;
     }
     .fotito{
         position: fixed;
-        left: 95vi;
-        width: 4vi;
-        height: 4vi;
+        left: 93.2vi;
+        width: 6vi;
+        height: 6vi;
     }
 }
