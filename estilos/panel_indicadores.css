@@ -109,7 +109,7 @@ body{
     display: flex;
     flex-direction: column;
     text-align: center;
-    /* animation-name: desvanecer2; */
+    animation-name: desvanecer2;
     animation-duration: 5s;
 }
 @keyframes desvanecer2 {
@@ -122,7 +122,7 @@ body{
     display: flex;
     align-items: center;
     border-bottom: #707070 solid 0.1vi;
-    height: 10vh;
+    height: 8vh;
     width: 100vw;
     font-family:'MyriadProRegular';
     color: black;
@@ -133,46 +133,46 @@ a{
 .imgA{
     position: absolute;
     display: flex;
-    left: 13vi;
+    left: 5vi;
     width: 1.62vi;
     height: 1.62vi;
 }
 .añadir{
     position: absolute;
-    left: 15vi;
+    left: 8vi;
     font-size: 1.25vi;
     color: black;
 }
 .imgR{
     position: absolute;
     display: flex;
-    left: 25vi;
+    left: 18vi;
     width: 1.5vi;
     height: 1.5vi;
 }
 .refrescar{
     position: absolute;
-    left: 27vi;
+    left: 20vi;
     font-size: 1.25vi;
     color: black;
 }
 .imgE{
     position: absolute;
     display: flex;
-    left: 37vi;
+    left: 30vi;
     width: 1.4vi;
     height: 1.7vi;
 }
 .eliminar{
     position: absolute;
-    left: 39vi;
+    left: 32vi;
     font-size: 1.25vi;
     color: black;
 }
 .imgL{
     position: absolute;
     display: flex;
-    left: 51vi;
+    left: 48vi;
     width: 2.2vi;
     height: 2vi;
 }
@@ -224,20 +224,23 @@ a{
     height: 3vi;
 }
 /*----------------Indicadores-----------------*/
+.linea1{
+    height: 4.5vi;
+}
 .titulo_I{
     position: relative;
     font-family:'MyriadProRegular' ;
-    font-size: 2.09vi;
+    font-size: 2vi;
 }
 .Aqui{
     position: relative;
     font-family:'MyriadProLight';
-    font-size: 1.25vi;
+    font-size: 1vi;
 }
 .nombres{
     position: relative;
     font-family:'MyriadProRegular' ;
-    font-size: 1.25vi;
+    font-size: 1vi;
     width: 85vi;
     left: 5vi;
     display: flex;
@@ -246,13 +249,169 @@ a{
 .Modelado{
     position: relative;
     font-family:'MyriadProLight';
-    font-size: 1.29vi;
+    font-size: 1vi;
     border: #707070 solid 0.1vi;
     border-radius: 1vi;
     width: 85vi;
     left: 5vi;
     display: flex;
     justify-content: space-evenly;
+}
+.barras{
+    position: relative;
+    left: 92vi;
+    top: -2.6vi;
+    display: flex;
+    flex-wrap: wrap;
+    width: 2vi;
+    height: 2.5vi;
+}
+.barrita1{
+    display: flex;
+    width: 2vi;
+    height: 0.3vi;
+    background-color: black;
+} 
+.barrita2{
+    display: flex;
+    width: 2vi;
+    height: 0.3vi;
+    background-color: black;
+} 
+.barrita3{
+    display: flex;
+    width: 2vi;
+    height: 0.3vi;
+    background-color: black;
+} 
+.progress-bar {
+    position: relative;
+    top: 0.4vi;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 2.5vi;
+    height: 2.5vi;
+    border-radius: 50%;
+    background: 
+      radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(rgb(255, 0, 0) 31%, rgb(250, 149, 149) 0);    
+  }
+  
+  .progress-bar::before {
+    font-size: 1vi;
+    content: "31%";
+  }
+.progress-bar2 {
+    position: relative;
+    top: 0.4vi;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 2.5vi;
+    height: 2.5vi;
+    border-radius: 50%;
+    background: 
+      radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(rgb(255, 0, 0) 25%, rgb(250, 149, 149) 0);    
+  }
+  
+.progress-bar2::before {
+    font-size: 1vi;
+    content: "25%";
+}
+.progress-bar3 {
+    position: relative;
+    top: 0.4vi;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 2.5vi;
+    height: 2.5vi;
+    border-radius: 50%;
+    background: 
+      radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(rgb(0, 255, 0) 80%, rgb(178, 250, 149) 0);    
+}
+  
+.progress-bar3::before {
+    font-size: 1vi;
+    content: "80%";
+}
+.progress-bar4 {
+    position: relative;
+    top: 0.4vi;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 2.5vi;
+    height: 2.5vi;
+    border-radius: 50%;
+    background: 
+      radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(rgb(255, 0, 0) 32%, rgb(250, 149, 149) 0);    
+}
+  
+.progress-bar4::before {
+    font-size: 1vi;
+    content: "32%";
+}
+.progress-bar5 {
+    position: relative;
+    top: 0.4vi;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 2.5vi;
+    height: 2.5vi;
+    border-radius: 50%;
+    background: 
+      radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(rgb(0, 255, 0) 80%, rgb(178, 250, 149) 0); 
+}
+ 
+  .progress-bar5::before {
+    font-size: 1vi;
+    content: "95%";
+}
+
+.progress-bar6 {
+  position: relative;
+  top: 0.4vi;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 2.5vi;
+  height: 2.5vi;
+  border-radius: 50%;
+  background: 
+    radial-gradient(closest-side, white 79%, transparent 80% 100%),
+    conic-gradient(rgb(255, 208, 0) 75%, rgb(250, 206, 149) 0);    
+}
+
+.progress-bar6::before {
+  font-size: 1vi;
+  content: "75%";
+}
+.boton_añadir{
+    position: absolute;
+    display: flex;
+    font-family:'MyriadProRegular';
+    background-color: #FF7221;
+    color: rgb(255, 255, 255);
+    font-size: 1vi;
+    width: 15vi;
+    height: 3vi;
+    border-radius:3vi;
+    align-items: center;
+    justify-content: center;
+    left: 42vi;
 }
 
 /*--------------------Media-Indicadores----------------*/
@@ -341,26 +500,55 @@ a{
     .fotito{
         position: absolute;
         left: 93.2vi;
-        width: 6vi;
-        height: 6vi;
+        width: 5vi;
+        height: 5vi;
+    }
+    .linea1{
+        height: 4.5vi;
     }
     .titulo_I{
         position: relative;
         font-family:'MyriadProRegular' ;
-        font-size: 3.5vi;
+        font-size: 3vi;
     }
     .Aqui{
         position: relative;
         font-family:'MyriadProLight';
-        font-size: 3vi;
+        font-size: 2vi;
     }
     .nombres{
         position: relative;
         font-family:'MyriadProRegular' ;
-        font-size: 1.8vi;
+        font-size: 1vi;
         display: flex;
         justify-content: space-evenly;
     }
+    .barras{
+        position: relative;
+        left: 92vi;
+        top: -3vi;
+        display: flex;
+        width: 2vi;
+        height: 2.5vi;
+    }
+    .barrita1{
+        display: flex;
+        width: 2vi;
+        height: 0.3vi;
+        background-color: black;
+    } 
+    .barrita2{
+        display: flex;
+        width: 2vi;
+        height: 0.3vi;
+        background-color: black;
+    } 
+    .barrita3{
+        display: flex;
+        width: 2vi;
+        height: 0.3vi;
+        background-color: black;
+    } 
     
 }
 /*----------------------------------*/
