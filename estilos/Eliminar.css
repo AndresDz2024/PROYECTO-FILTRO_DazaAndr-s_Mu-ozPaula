@@ -11,7 +11,7 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
-/*-----------------Encabezado-Ayuda------------------*/
+/*-----------------Ayuda------------------*/
 .paginaprincipal{
     position: absolute;
     top: 0%;
@@ -142,8 +142,8 @@ a{
     width: 3vi;
     height: 3vi;
 }
-/*-----------------Ayuda-Contenido------------------*/
-.Ayuda-Contenido{
+/*-----------------Reportar-Contenido------------------*/
+.Eliminar-Contenido{
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -151,27 +151,39 @@ a{
     justify-content: center;
     align-items: center;
 }
-.Centro{
+.contenido-elimi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border: #FF7221 solid 0.6vi;
+    border-radius: 2vi;
+    width: 45vi;
+    height: 30vi;
+}
+.elimi{
     position: relative;
     font-family:'MyriadProRegular';
-    color: #ffffff;
+    color: black;
     font-size: 3vi;
-    bottom: 11vi;
+    bottom: 1vi;
     display: flex;
     justify-content: center;
 }
-.ayudab{
+.di{
     position: relative;
     background-color: #ffffff;
     border-radius: 0.6vi;
-    bottom: 10vi;
-    width: 35vi;
-    height:5vi;
+    border: #707070 solid 0.1vi;
+    bottom: 2.5vi;
+    width: 30vi;
+    height: 5vi;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.lupa{
+.flecha{
     position: relative;
     width: 3vi;
     height: 3vi;
@@ -181,25 +193,32 @@ a{
     border: 0;
     font-family:'MyriadProRegular';
     color: black;
-    width: 29vi;
-    left: 0.5vi;
+    width: 20vi;
+    left: 2vi;
     font-size: 2.5vi;
     outline: none;
 }
-.Necesitas{
+.digite{
     position: relative;
     font-family:'MyriadProRegular';
-    color: #ffffff;
-    font-size: 2.5vi;
-    top: 3vi;
+    color: black;
+    font-size: 2vi;
+    bottom: 3vi;
 }
-.contacto{
+.seguro{
+    position: relative;
+    font-family:'MyriadProRegular';
+    color: black;
+    font-size: 2vi;
+    bottom: 2vi;
+}
+.elimina{
     position: relative;
     font-family:'MyriadProRegular';
     background-color:#FF7221;
     color: #ffffff;
     font-size: 2vi;
-    top: 3vi;
+    bottom: 3vi;
     width: 15vi;
     height: 5vi;
     border-radius: 0.5vi;
@@ -207,7 +226,6 @@ a{
     align-items: center;
     justify-content: center;
 }
-
 /*--------------------Media-Indicadores----------------*/
 @media (max-width: 820px){
     .encabezado{
@@ -298,4 +316,3 @@ a{
         height: 6vi;
     }
 }    
-/*----------------------------------------------*/

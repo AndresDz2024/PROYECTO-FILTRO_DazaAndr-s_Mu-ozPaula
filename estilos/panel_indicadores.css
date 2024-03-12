@@ -26,7 +26,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    animation-name: desvanecer;
+    /* animation-name: desvanecer; */
     animation-duration: 6s;
 }
 @keyframes desvanecer {
@@ -64,6 +64,13 @@ body{
     0%{opacity: 1;}
     95%{opacity: 1;}
     100%{opacity: 0;}
+}
+.karioMedia{
+    position: absolute;
+    width: 5.365vi;
+    height: 6.042vi;
+    top: 1.95vi;
+    left: 21.7vi;
 }
 .Bnuevo{
     position: absolute;
@@ -109,7 +116,7 @@ body{
     display: flex;
     flex-direction: column;
     text-align: center;
-    animation-name: desvanecer2;
+    /* animation-name: desvanecer2; */
     animation-duration: 5s;
 }
 @keyframes desvanecer2 {
@@ -216,12 +223,30 @@ a{
     width: 1.5vi;
     height: 1.5vi;
 }
-.fotito{
+/*----------------Indicadores-----------------*/
+.fotitop{
     position: absolute;
     display: flex;
     left: 96vi;
     width: 3vi;
     height: 3vi;
+}
+.new{
+    display: flex;
+    position: relative;
+    top: 5vi;
+    left: 80vi;
+    display: none;
+}
+.new:target{
+    display: block;
+}
+.new div{
+    background: #FFFFFF;
+    width: 300px;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 5px;
 }
 /*----------------Indicadores-----------------*/
 .linea1{
@@ -241,10 +266,38 @@ a{
     position: relative;
     font-family:'MyriadProRegular' ;
     font-size: 1vi;
-    width: 85vi;
-    left: 5vi;
+    width: 83vi;
+    left: 6vi;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+}
+.num2{
+    position: relative;
+    left: 3vi;
+}
+.num3{
+    position: relative;
+    left: 6vi;
+}
+.num4{
+    position: relative;
+    left: 3.5vi;
+}
+.num5{
+    position: relative;
+    left: 1vi;
+}
+.num6{
+    position: relative;
+    left: 0vi;
+}
+.num7{
+    position: relative;
+    left: 1vi;
+}
+.num8{
+    position: relative;
+    left: 1vi;
 }
 .Modelado{
     position: relative;
@@ -255,11 +308,40 @@ a{
     width: 85vi;
     left: 5vi;
     display: flex;
-    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 1vi;
+}
+.m2{
+    position: absolute;
+    left: 13vi;
+}
+.m3{
+    position: absolute;
+    left: 27vi;
+}
+.m4{
+    position: absolute;
+    left: 34vi;
+}
+.m5{
+    position: absolute;
+    left:44vi;
+}
+.m6{
+    position: absolute;
+    left: 54.3vi;
+}
+.m7{
+    position: absolute;
+    left: 65vi;
+}
+.m8{
+    position: absolute;
+    left: 81vi;
 }
 .barras{
     position: relative;
-    left: 92vi;
+    left: 93vi;
     top: -2.6vi;
     display: flex;
     flex-wrap: wrap;
@@ -285,8 +367,9 @@ a{
     background-color: black;
 } 
 .progress-bar {
-    position: relative;
+    position: absolute;
     top: 0.4vi;
+    left:74vi;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -304,8 +387,9 @@ a{
     content: "31%";
   }
 .progress-bar2 {
-    position: relative;
+    position: absolute;
     top: 0.4vi;
+    left:74vi;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -323,8 +407,9 @@ a{
     content: "25%";
 }
 .progress-bar3 {
-    position: relative;
+    position: absolute;
     top: 0.4vi;
+    left:74vi;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -342,8 +427,9 @@ a{
     content: "80%";
 }
 .progress-bar4 {
-    position: relative;
+    position: absolute;
     top: 0.4vi;
+    left:74vi;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -361,8 +447,9 @@ a{
     content: "32%";
 }
 .progress-bar5 {
-    position: relative;
+    position: absolute;
     top: 0.4vi;
+    left:74vi;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -381,8 +468,9 @@ a{
 }
 
 .progress-bar6 {
-  position: relative;
+  position: absolute;
   top: 0.4vi;
+  left:74vi;
   display: flex;
   justify-content: center;
   align-items: center;

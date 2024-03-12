@@ -40,7 +40,7 @@ body{
     display: flex;
     align-items: center;
     background-color: #ffffff;
-    border-bottom: #707070 solid 0.1vi;
+    border-bottom: #ff9100 solid 0.1vi;
     height: 8vh;
     width: 100vw;
     font-family:'MyriadProRegular';
@@ -52,46 +52,46 @@ a{
 .imgA{
     position: absolute;
     display: flex;
-    left: 13vi;
+    left: 5vi;
     width: 1.62vi;
     height: 1.62vi;
 }
 .añadir{
     position: absolute;
-    left: 15vi;
+    left: 8vi;
     font-size: 1.25vi;
     color: black;
 }
 .imgR{
     position: absolute;
     display: flex;
-    left: 25vi;
+    left: 18vi;
     width: 1.5vi;
     height: 1.5vi;
 }
 .refrescar{
     position: absolute;
-    left: 27vi;
+    left: 20vi;
     font-size: 1.25vi;
     color: black;
 }
 .imgE{
     position: absolute;
     display: flex;
-    left: 37vi;
+    left: 30vi;
     width: 1.4vi;
     height: 1.7vi;
 }
 .eliminar{
     position: absolute;
-    left: 39vi;
+    left: 32vi;
     font-size: 1.25vi;
     color: black;
 }
 .imgL{
     position: absolute;
     display: flex;
-    left: 51vi;
+    left: 48vi;
     width: 2.2vi;
     height: 2vi;
 }
