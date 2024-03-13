@@ -249,7 +249,7 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: linear-gradient(#FF7221 30%,#FFFFFF 10%);
+    background: linear-gradient(#FF6f2c 30%,black 31%,#FFFFFF 10%);
     width:20vi;
     height: 20vi;
     border: black solid 0.1px;
@@ -258,47 +258,73 @@ a{
 }
 .fotolo{
     display: flex;
-    position: relative;
+    position: absolute;
     top:1vi;
     width: 6vi;
     height: 6vi;
-    border: solid #FFFFFF;
-    border-radius:3.5vi;
+    border: 0.3vi solid #FFFFFF;
+    border-radius:4vi;
     z-index: 1;
 }
 .name-salir{
     display: flex;
-    position: relative;
+    position: absolute;
+    top: 7vi;
     font-size: 1.5vi;
     font-family:'MyriadProRegular';
     color: black;
 }
-.sign-out{
+.agregar{
     position: absolute;
     display: flex;
-    top: 10vi;
-    font-size: 1.5vi;
+    align-items: center;
+    justify-content: center;
+    top: 11.3vi;
+    left: 2.5vi;
+    width: 15vi;
+    height: 3vi;
     font-family:'MyriadProRegular';
+    font-size: 1.8vi;
     color: black;
+    border: #FF6f2c solid 0.1vi;
+    border-radius: 2vi 2vi 0 0;
 }
-.Sign{
+.agregar-media{
     position: relative;
+    display: flex;
+    width: 2.5vi;
+    height: 2vi;
+}
+.log-out{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 15vi;
+    left: 2.5vi;
+    width: 15vi;
+    height: 3vi;
+    font-family:'MyriadProRegular';
+    font-size: 1.8vi;
+    color: black;
+    border: #FF6f2c solid 0.1vi;
+    border-radius: 0 0 2vi 2vi;
+}
+.salir-media{
+    position: relative;
+    display: flex;
+    width: 2.5vi;
+    height: 2.5vi;
+}
+.icono-cerrar{
+    position: absolute;
     display: flex;
     background-color: #FF7221;
-    border-radius: 1.5vi;
-    border: #707070 0.1vi solid;
-    justify-content: center;
-    align-items: center;
-    width: 10vi;
-    height: 4vi;
-    bottom: 1vi;
-    color: black;
-}
-.icono-salir{
-    position: relative;
-    display: flex;
+    border-radius: 50%;
     width: 2vi;
     height: 2vi;
+    top: 19vi;
+    left: 9.1vi;
 }
 /*----------------pop-up-añadir-----------------*/
 .new2{
@@ -307,6 +333,9 @@ a{
     top: 3vi;
     left: 25vi;
     display: none;
+    font-family:'MyriadProRegular';
+    font-size: 2vi;
+    color: black;
 }
 .new2:target{
     display: flex;
@@ -315,16 +344,237 @@ a{
     padding: 5vi 24vi;
     inset: 0;
 }
-.new2 div{
+.pop-añadir{
     display: flex;
     position: relative;
     background: #ffffff;
-    width:50vi;
-    height: 40vi;
-    border: black solid 0.3vi;
+    width: 70vi;
+    height: 48vi;
+    border: black solid 0.2vi;
     border-radius: 2vi;
     box-shadow: 0.5vi 0.5vi 0.5vi rgba(0, 0, 0, 0.3);
     z-index: 100;
+}
+.elementos{
+    display: flex;
+    position: absolute;
+    font-size: 3.5vi;
+    bottom: 39vi;
+    left: 13vi;
+}
+.Ind{
+    display: flex;
+    position: absolute;
+    top: 7vi;
+    left:3vi;
+}
+.Ind2{
+    display: flex;
+    position: absolute;
+    background-color: #FFFFFF;
+    border-radius: 0.5vi;
+    border: 0.1vi solid #707070;
+    font-size: 1.5vi;
+    width: 20vi;
+    height: 2.7vi;
+    top: 9.5vi;
+    left: 3vi;
+    padding-left: 1vi;
+}
+.cat{
+    display: flex;
+    position: absolute;
+    top: 7vi;
+    left:27vi;
+}
+.cat2{
+    display: flex;
+    position: absolute;
+    background-color: #FFFFFF;
+    border-radius: 0.5vi;
+    border: 0.1vi solid #707070;
+    font-size: 1.5vi;
+    width: 20vi;
+    height: 2.7vi;
+    top: 9.5vi;
+    left: 27vi;
+    padding-left: 1vi;
+}
+.FI{
+    display: flex;
+    position: absolute;
+    top: 13vi;
+    left:3vi;
+}
+.FI2{
+    display: flex;
+    position: absolute;
+    background-color: #FFFFFF;
+    border-radius: 0.5vi;
+    border: 0.1vi solid #707070;
+    font-size: 1.5vi;
+    width: 20vi;
+    height: 2.7vi;
+    top: 15.5vi;
+    left: 3vi;
+    padding-left: 1vi;
+}
+.FT{
+    display: flex;
+    position: absolute;
+    top: 13vi;
+    left:27vi;
+}
+.FT2{
+    display: flex;
+    position: absolute;
+    background-color: #FFFFFF;
+    border-radius: 0.5vi;
+    border: 0.1vi solid #707070;
+    font-size: 1.5vi;
+    width: 20vi;
+    height: 2.7vi;
+    top: 15.5vi;
+    left: 27vi;
+    padding-left: 1vi;
+}
+.formula{
+    display: flex;
+    position: absolute;
+    top: 19vi;
+    left:3vi;
+}
+.formula2{
+    display: flex;
+    position: absolute;
+    background-color: #FFFFFF;
+    border-radius: 0.5vi;
+    border: 0.1vi solid #707070;
+    font-size: 1.5vi;
+    width: 21vi;
+    height: 3vi;
+    top: 21.5vi;
+    left: 3vi;
+    padding-left: 1vi;
+}
+.frecuencia{
+    display: flex;
+    position: absolute;
+    top: 19vi;
+    left:27vi;
+}
+.frecuencia2{
+    display: flex;
+    position: absolute;
+    background-color: #FFFFFF;
+    border-radius: 0.5vi;
+    border: 0.1vi solid #707070;
+    font-size: 1.5vi;
+    width: 21vi;
+    height: 3vi;
+    top: 21.5vi;
+    left: 27vi;
+    padding-left: 1vi;
+}
+.cump{
+    display: flex;
+    position: absolute;
+    top: 26vi;
+    left:3vi;
+}
+.cump2{
+    display: flex;
+    position: absolute;
+    background-color: #FFFFFF;
+    border-radius: 0.5vi;
+    border: 0.1vi solid #707070;
+    font-size: 1.5vi;
+    width: 20vi;
+    height: 2.7vi;
+    top: 28.5vi;
+    left: 3vi;
+    padding-left: 1vi;
+}
+input[type="range"] {
+    width: 300px;
+}
+
+input[type="range"]::after {
+    content: attr(value);
+    position: absolute;
+    display: inline-block;
+    padding: 5px;
+    background-color: #ccc;
+    border-radius: 5px;
+    transform: translate(-50%, -150%);
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+input[type="range"]:valid::after {
+    opacity: 1;
+}
+.area{
+    display: flex;
+    position: absolute;
+    top: 26vi;
+    left:27vi;
+}
+.area2{
+    display: flex;
+    position: absolute;
+    background-color: #FFFFFF;
+    border-radius: 0.5vi;
+    border: 0.1vi solid #707070;
+    font-size: 1.5vi;
+    width: 20vi;
+    height: 2.7vi;
+    top: 28.5vi;
+    left: 27vi;
+    padding-left: 1vi;
+}
+.desc{
+    display: flex;
+    position: absolute;
+    top: 32vi;
+    left:20.8vi;
+}
+.desc2{
+    display: flex;
+    position: absolute;
+    background-color: #FFFFFF;
+    border-radius: 0.5vi;
+    border: 0.1vi solid #707070;
+    font-size: 1.5vi;
+    width: 44vi;
+    height: 6vi;
+    top: 34.5vi;
+    left: 3vi;
+    padding-left: 1vi;
+}
+.aña{
+    position: absolute;
+    display: flex;
+    font-family:'MyriadProRegular';
+    background-color: #FF7221;
+    color: rgb(255, 255, 255);
+    font-size: 1.5vi;
+    bottom: 2.5vi;
+    left: 20vi;
+    width: 10vi;
+    height: 3vi;
+    border-radius:3vi;
+    align-items: center;
+    justify-content: center;
+}
+.cerrar{
+    position: absolute;
+    display: flex;
+    width: 2vi;
+    height: 2vi;
+    top: 1vi;
+    left: 48.5vi;
 }
 /*----------------Indicadores-----------------*/
 .Indicadores{

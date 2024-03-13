@@ -39,9 +39,21 @@
                     <div id="pop" class="new">
                         <div class="salir">
                             <img class="fotolo" src="./media/foto.png"></a>
-                            <p class="name-salir">Pedro Felipe Gómez Bonilla<p>
+                            <p class="name-salir">Pedro Felipe Gómez Bonilla</p>
+                            <a href="usuario.html">
+                                <div class="agregar">
+                                    <img class="agregar-media" src="./media/mas.png">
+                                    &nbsp;&nbsp;Agregar
+                                </div>
+                            </a>   
+                            <a href="index.html">
+                                <div class="log-out">
+                                    <img class="salir-media" src="./media/salir.png">
+                                     &nbsp;&nbsp;Salir
+                                </div>
+                            </a> 
                             <a href="#Cerrar">
-                                <p class="sign-out">Sign Out<p>
+                                <img class="icono-cerrar" src="./media/cerrar.png">
                             </a>
                         </div>
                     </div>
@@ -170,19 +182,49 @@
                         </div>
                             <a href="#pop2"><div class="boton_añadir">Añadir Elementos</div></a>
                             <div id="pop2" class="new2">
-                                <div>
-                                    <p>Añadir Elementos</p>
-                                    <p>Indicador</p>
-                                    <p>Categoría</p>
-                                    <p>Fecha de Inicio</p>
-                                    <p>Fecha de Terminación</p>
-                                    <p>Fórmula</p>
-                                    <p>Frecuencia</p>
-                                    <p>Cumplimiento</p>
-                                    <p>Área</p>
-                                    <p>Descripción</p>
-                                    <a href="#añadir">Añadir</a>
-                                    <a href="#C">Cerrar</a>
+                                <div class="pop-añadir">
+                                    <p class="elementos">Añadir Elementos</p>
+                                    <label class="Ind" for="Ind">Indicador</label>       
+                                    <input type="text" class="Ind2" id="Ind" placeholder="Indicador">            
+
+                                    <label class="cat" for="cat">Categoría</label>
+                                    <input type="text" class="cat2" id="cat" placeholder="Categoria">
+
+                                    <label class="FI" for="FI">Fecha de Inicio</label>   
+                                    <input type="date" class="FI2" id="FI">              
+
+                                    <label class="FT" for="FT">Fecha de Terminación</label>
+                                    <input type="date" class="FT2" id="FT">
+
+                                    <label for="formula" class="formula">Fórmula</label>  
+                                    <select id="formula" class="formula2">                
+                                    <option>N/A</option>                      
+                                    <option>Met.Ágil</option>            
+                                    <option>Met.Fibo</option>            
+                                    <option>Met.Expo</option>            
+                                    </select>                                            
+
+                                    <label for="frecuencia" class="frecuencia">Frecuencia</label>
+                                    <select id="frecuencia" class="frecuencia2">
+                                        <option>1</option>
+                                        <option>1/2</option>
+                                        <option>1/3</option>
+                                        <option>1/4</option>
+                                    </select>
+
+                                    <label class="cump" for="cump">Cumplimiento</label>   
+                                    <input type="number" id="cump" class="cump2" placeholder="Cumplimiento" >
+                                    
+                                    <label class="area" for="area">Área</label>
+                                    <input type="text" class="area2" id="area" placeholder="Área">
+
+                                    <label class="desc" for="desc">Descripción</label>
+                                    <textarea id="desc" class="desc2" placeholder="Ingresa una descripción"></textarea>
+                                    
+                                    <a href="usuario.html">
+                                        <div class="aña">Añadir</div>
+                                    </a>
+                                    <a href="#C"><img class="cerrar" src="./media/x.png"></a>
                                 </div>
                             </div>
                         </a>
