@@ -223,32 +223,114 @@ a{
     width: 1.5vi;
     height: 1.5vi;
 }
-/*----------------Indicadores-----------------*/
+/*----------------pop up foto-----------------*/
 .fotitop{
     position: absolute;
     display: flex;
     left: 96vi;
     width: 3vi;
-    height: 3vi;
+    height: 3vi;  
 }
 .new{
     display: flex;
     position: relative;
-    top: 5vi;
-    left: 80vi;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2vi;
+    top: 11.2vi;
+    left: 78vi;
+    box-shadow: 0.5vi 0.5vi 0.5vi rgba(0, 0, 0, 0.3);
     display: none;
 }
 .new:target{
-    display: block;
+    display: flex;
 }
-.new div{
-    background: #FFFFFF;
-    width: 300px;
-    margin: 20px auto;
-    padding: 10px;
-    border-radius: 5px;
+.salir{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(#FF7221 30%,#FFFFFF 10%);
+    width:20vi;
+    height: 20vi;
+    border: black solid 0.1px;
+    border-radius: 2vi;
+    z-index: 100;
+}
+.fotolo{
+    display: flex;
+    position: relative;
+    top:1vi;
+    width: 6vi;
+    height: 6vi;
+    border: solid #FFFFFF;
+    border-radius:3.5vi;
+    z-index: 1;
+}
+.name-salir{
+    display: flex;
+    position: relative;
+    font-size: 1.5vi;
+    font-family:'MyriadProRegular';
+    color: black;
+}
+.sign-out{
+    position: absolute;
+    display: flex;
+    top: 10vi;
+    font-size: 1.5vi;
+    font-family:'MyriadProRegular';
+    color: black;
+}
+.Sign{
+    position: relative;
+    display: flex;
+    background-color: #FF7221;
+    border-radius: 1.5vi;
+    border: #707070 0.1vi solid;
+    justify-content: center;
+    align-items: center;
+    width: 10vi;
+    height: 4vi;
+    bottom: 1vi;
+    color: black;
+}
+.icono-salir{
+    position: relative;
+    display: flex;
+    width: 2vi;
+    height: 2vi;
+}
+/*----------------pop-up-añadir-----------------*/
+.new2{
+    display: flex;
+    position: absolute;
+    top: 3vi;
+    left: 25vi;
+    display: none;
+}
+.new2:target{
+    display: flex;
+    background: #00000088;
+    position: fixed;
+    padding: 5vi 24vi;
+    inset: 0;
+}
+.new2 div{
+    display: flex;
+    position: relative;
+    background: #ffffff;
+    width:50vi;
+    height: 40vi;
+    border: black solid 0.3vi;
+    border-radius: 2vi;
+    box-shadow: 0.5vi 0.5vi 0.5vi rgba(0, 0, 0, 0.3);
+    z-index: 100;
 }
 /*----------------Indicadores-----------------*/
+.Indicadores{
+    position: relative;
+    top: 0.5vi;
+}
 .linea1{
     height: 4.5vi;
 }
@@ -462,7 +544,7 @@ a{
       conic-gradient(rgb(0, 255, 0) 80%, rgb(178, 250, 149) 0); 
 }
  
-  .progress-bar5::before {
+.progress-bar5::before {
     font-size: 1vi;
     content: "95%";
 }
@@ -494,6 +576,7 @@ a{
     background-color: #FF7221;
     color: rgb(255, 255, 255);
     font-size: 1vi;
+    top: 42vi;
     width: 15vi;
     height: 3vi;
     border-radius:3vi;
@@ -637,6 +720,9 @@ a{
         height: 0.3vi;
         background-color: black;
     } 
-    
+    .Amedia{
+        display: none;
+    }
 }
+
 /*----------------------------------*/

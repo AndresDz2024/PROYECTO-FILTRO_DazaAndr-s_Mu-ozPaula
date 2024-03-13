@@ -157,17 +157,17 @@ a{
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
-    border: #FF7221 solid 0.6vi;
+    border: #FF7221 solid 0.4vi;
     border-radius: 2vi;
-    width: 45vi;
-    height: 30vi;
+    width: 44vi;
+    height: 32vi;
 }
 .elimi{
     position: relative;
     font-family:'MyriadProRegular';
     color: black;
     font-size: 3vi;
-    bottom: 1vi;
+    bottom: 1.2vi;
     display: flex;
     justify-content: center;
 }
@@ -177,33 +177,27 @@ a{
     border-radius: 0.6vi;
     border: #707070 solid 0.1vi;
     bottom: 2.5vi;
-    width: 30vi;
-    height: 5vi;
+    width: 22vi;
+    height: 6vi;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.flecha{
-    position: relative;
-    width: 3vi;
-    height: 3vi;
 }
 .texto{
     position: relative;
     border: 0;
     font-family:'MyriadProRegular';
     color: black;
-    width: 20vi;
-    left: 2vi;
-    font-size: 2.5vi;
+    width: 16vi;
+    font-size: 2vi;
     outline: none;
 }
 .digite{
     position: relative;
     font-family:'MyriadProRegular';
     color: black;
-    font-size: 2vi;
-    bottom: 3vi;
+    font-size: 1.6vi;
+    bottom: 3.5vi;
 }
 .seguro{
     position: relative;
