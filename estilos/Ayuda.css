@@ -309,7 +309,7 @@ a{
         height: 10vh;
         width: 100vw;
     }
-    .imgA, .añadir, .refrescar, .eliminar, .reportar, .ayuda, .configuracion, .notificacion{
+    .imgP, .añadir, .refrescar, .eliminar, .reportar, .ayuda, .configuracion, .notificacion{
         display: none;
     }
     .imgR{
@@ -317,7 +317,7 @@ a{
         width: 8vi;
         height: 8vi;
     }
-    .imgE{
+    .imgA{
         left: 23vi;
         width: 8vi;
         height: 8vi;
@@ -327,12 +327,12 @@ a{
         width: 15vi;
         height: 15vi;
     }
-    .imgB{
+    .imgE{
         left: 66vi;
         width: 8vi;
         height: 8vi;
     }
-    .imgP{
+    .imgB{
         left: 78vi;
         width: 8vi;
         height: 8vi;
@@ -343,7 +343,61 @@ a{
         height: 10vi;
     }
 /*----------------pop up foto-----------------*/
-
+.new{
+    top: 30vi;
+    left: 55vi;
+}
+.salir{
+    background: linear-gradient(#FF6f2c 30%,black 31%,#FFFFFF 10%);
+    width:40vi;
+    height: 60vi;
+}
+.fotolo{
+    top:10vi;
+    width: 14vi;
+    height: 14vi;
+    border: 0.6vi solid #FFFFFF;
+    border-radius:8vi;
+}
+.name-salir{
+    top: 23vi;
+    font-size: 3vi;
+}
+.agregar{
+    top: 35vi;
+    left: 5vi;
+    width: 30vi;
+    height: 6vi;
+    font-size: 3.6vi;
+}
+.agregar-media{
+    width: 4vi;
+    height: 4vi;
+}
+.log-out{
+    top: 45vi;
+    left: 5vi;
+    width: 30vi;
+    height: 6vi;
+    font-size: 3.6vi;
+}
+.salir-media{
+    position: relative;
+    display: flex;
+    width: 4vi;
+    height: 4vi;
+    left: -2vi;
+}
+.icono-cerrar{
+    position: absolute;
+    display: flex;
+    background-color: #FF7221;
+    border-radius: 50%;
+    width: 10vi;
+    height: 10vi;
+    top: 55vi;
+    left: 16vi;
+}
 /*-----------------Ayuda-Contenido------------------*/
 .Centro{
     font-size: 10vi;
