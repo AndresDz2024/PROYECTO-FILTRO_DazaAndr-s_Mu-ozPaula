@@ -142,6 +142,109 @@ a{
     width: 3vi;
     height: 3vi;
 }
+/*----------------pop up foto-----------------*/
+.fotitop{
+    position: absolute;
+    display: flex;
+    left: 96vi;
+    width: 3vi;
+    height: 3vi;  
+}
+.new{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2vi;
+    top: 11.2vi;
+    left: 78vi;
+    box-shadow: 0.5vi 0.5vi 0.5vi rgba(0, 0, 0, 0.3);
+    display: none;
+}
+.new:target{
+    display: flex;
+}
+.salir{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(#FF6f2c 30%,black 31%,#FFFFFF 10%);
+    width:20vi;
+    height: 20vi;
+    border: black solid 0.1px;
+    border-radius: 2vi;
+    z-index: 100;
+}
+.fotolo{
+    display: flex;
+    position: absolute;
+    top:1vi;
+    width: 6vi;
+    height: 6vi;
+    border: 0.3vi solid #FFFFFF;
+    border-radius:4vi;
+    z-index: 1;
+}
+.name-salir{
+    display: flex;
+    position: absolute;
+    top: 7vi;
+    font-size: 1.5vi;
+    font-family:'MyriadProRegular';
+    color: black;
+}
+.agregar{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 11.3vi;
+    left: 2.5vi;
+    width: 15vi;
+    height: 3vi;
+    font-family:'MyriadProRegular';
+    font-size: 1.8vi;
+    color: black;
+    border: #FF6f2c solid 0.1vi;
+    border-radius: 2vi 2vi 0 0;
+}
+.agregar-media{
+    position: relative;
+    display: flex;
+    width: 2.5vi;
+    height: 2vi;
+}
+.log-out{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 15vi;
+    left: 2.5vi;
+    width: 15vi;
+    height: 3vi;
+    font-family:'MyriadProRegular';
+    font-size: 1.8vi;
+    color: black;
+    border: #FF6f2c solid 0.1vi;
+    border-radius: 0 0 2vi 2vi;
+}
+.salir-media{
+    position: relative;
+    display: flex;
+    width: 2.5vi;
+    height: 2.5vi;
+}
+.icono-cerrar{
+    position: absolute;
+    display: flex;
+    background-color: #FF7221;
+    border-radius: 50%;
+    width: 2vi;
+    height: 2vi;
+    top: 19vi;
+    left: 9.1vi;
+}
 /*-----------------Ayuda-Contenido------------------*/
 .Ayuda-Contenido{
     width: 100vw;

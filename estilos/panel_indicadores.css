@@ -333,6 +333,7 @@ a{
     top: 3vi;
     left: 25vi;
     display: none;
+    box-sizing: border-box;
     font-family:'MyriadProRegular';
     font-size: 2vi;
     color: black;
@@ -341,7 +342,7 @@ a{
     display: flex;
     background: #00000088;
     position: fixed;
-    padding: 5vi 24vi;
+    padding: 1vi 24vi;
     inset: 0;
 }
 .pop-añadir{
@@ -552,6 +553,7 @@ input[type="range"]:valid::after {
     top: 34.5vi;
     left: 3vi;
     padding-left: 1vi;
+    resize: none;
 }
 .aña{
     position: absolute;
