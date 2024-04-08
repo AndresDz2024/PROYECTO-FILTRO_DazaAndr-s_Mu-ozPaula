@@ -1,0 +1,450 @@
+@font-face {
+    font-family: 'MyriadProLight';
+    src: url('/fuentes/MyriadProLight.otf') format('truetype');
+}
+@font-face {
+    font-family: 'MyriadProRegular';
+    src: url('/fuentes/MyriadProRegular.ttf') format('truetype');
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*-----------------Eliminar------------------*/
+.paginaprincipal{
+    position: absolute;
+    top: 0%;
+    opacity: 1;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    background-image: url(/media/Fondo.png);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.encabezado{
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-bottom: #ff9100 solid 0.1vi;
+    height: 8vh;
+    width: 100vw;
+    font-family:'MyriadProRegular';
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+.imgA{
+    position: absolute;
+    display: flex;
+    left: 5vi;
+    width: 1.62vi;
+    height: 1.62vi;
+}
+.añadir{
+    position: absolute;
+    left: 8vi;
+    font-size: 1.25vi;
+    color: black;
+}
+.imgR{
+    position: absolute;
+    display: flex;
+    left: 18vi;
+    width: 1.5vi;
+    height: 1.5vi;
+}
+.refrescar{
+    position: absolute;
+    left: 20vi;
+    font-size: 1.25vi;
+    color: black;
+}
+.imgE{
+    position: absolute;
+    display: flex;
+    left: 30vi;
+    width: 1.4vi;
+    height: 1.7vi;
+}
+.eliminar{
+    position: absolute;
+    left: 32vi;
+    font-size: 1.25vi;
+    color: black;
+}
+.imgL{
+    position: absolute;
+    display: flex;
+    left: 48vi;
+    width: 2.2vi;
+    height: 2vi;
+}
+.imgB{
+    position: absolute;
+    display: flex;
+    left: 63vi;
+    width: 1.78vi;
+    height: 1.98vi;
+}
+.reportar{
+    position: absolute;
+    left: 65vi;
+    font-size: 1.25vi;
+    color: black;
+}
+.imgP{
+    position: absolute;
+    display: flex;
+    left: 75vi;
+    width: 1.78vi;
+    height: 1.78vi;
+}
+.ayuda{
+    position: absolute;
+    left: 77vi;
+    font-size: 1.25vi;
+    color: black;
+}
+.configuracion{
+    position: absolute;
+    display: flex;
+    left: 90vi;
+    width: 1.5vi;
+    height: 1.5vi;
+}
+.notificacion{
+    position: absolute;
+    display: flex;
+    left: 93vi;
+    width: 1.5vi;
+    height: 1.5vi;
+}
+.fotito{
+    position: absolute;
+    display: flex;
+    left: 96vi;
+    width: 3vi;
+    height: 3vi;
+}
+/*----------------pop up foto-----------------*/
+.fotitop{
+    position: absolute;
+    display: flex;
+    left: 96vi;
+    width: 3vi;
+    height: 3vi;  
+}
+.new{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2vi;
+    top: 11.2vi;
+    left: 78vi;
+    box-shadow: 0.5vi 0.5vi 0.5vi rgba(0, 0, 0, 0.3);
+    display: none;
+}
+.new:target{
+    display: flex;
+}
+.salir{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(#FF6f2c 30%,black 31%,#FFFFFF 10%);
+    width:20vi;
+    height: 20vi;
+    border: black solid 0.1px;
+    border-radius: 2vi;
+    z-index: 100;
+}
+.fotolo{
+    display: flex;
+    position: absolute;
+    top:1vi;
+    width: 6vi;
+    height: 6vi;
+    border: 0.3vi solid #FFFFFF;
+    border-radius:4vi;
+    z-index: 1;
+}
+.name-salir{
+    display: flex;
+    position: absolute;
+    top: 7vi;
+    font-size: 1.5vi;
+    font-family:'MyriadProRegular';
+    color: black;
+}
+.agregar{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 11.3vi;
+    left: 2.5vi;
+    width: 15vi;
+    height: 3vi;
+    font-family:'MyriadProRegular';
+    font-size: 1.8vi;
+    color: black;
+    border: #FF6f2c solid 0.1vi;
+    border-radius: 2vi 2vi 0 0;
+}
+.agregar-media{
+    position: relative;
+    display: flex;
+    width: 2.5vi;
+    height: 2vi;
+}
+.log-out{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 15vi;
+    left: 2.5vi;
+    width: 15vi;
+    height: 3vi;
+    font-family:'MyriadProRegular';
+    font-size: 1.8vi;
+    color: black;
+    border: #FF6f2c solid 0.1vi;
+    border-radius: 0 0 2vi 2vi;
+}
+.salir-media{
+    position: relative;
+    display: flex;
+    width: 2.5vi;
+    height: 2.5vi;
+}
+.icono-cerrar{
+    position: absolute;
+    display: flex;
+    background-color: #FF7221;
+    border-radius: 50%;
+    width: 2vi;
+    height: 2vi;
+    top: 19vi;
+    left: 9.1vi;
+}
+/*-----------------Eliminar-Contenido------------------*/
+.Eliminar-Contenido{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contenido-elimi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border: #FF7221 solid 0.4vi;
+    border-radius: 2vi;
+    width: 44vi;
+    height: 32vi;
+}
+.elimi{
+    position: relative;
+    font-family:'MyriadProRegular';
+    color: black;
+    font-size: 3vi;
+    bottom: 1.2vi;
+    display: flex;
+    justify-content: center;
+}
+.di{
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 0.6vi;
+    border: #707070 solid 0.1vi;
+    bottom: 2.5vi;
+    width: 22vi;
+    height: 6vi;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.texto{
+    position: relative;
+    border: 0;
+    font-family:'MyriadProRegular';
+    color: black;
+    width: 16vi;
+    font-size: 2vi;
+    outline: none;
+}
+.digite{
+    position: relative;
+    font-family:'MyriadProRegular';
+    color: black;
+    font-size: 1.6vi;
+    bottom: 3.5vi;
+}
+.seguro{
+    position: relative;
+    font-family:'MyriadProRegular';
+    color: black;
+    font-size: 2vi;
+    bottom: 2vi;
+}
+.elimina{
+    position: relative;
+    font-family:'MyriadProRegular';
+    background-color:#FF7221;
+    color: #ffffff;
+    font-size: 2vi;
+    bottom: 3vi;
+    width: 15vi;
+    height: 5vi;
+    border-radius: 0.5vi;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*------------------Media-Query-------------------*/
+@media screen and (max-width: 820px){
+    .encabezado{
+        border-bottom: #ff9100 solid 0.3vi;
+        height: 10vh;
+        width: 100vw;
+    }
+    .imgE, .añadir, .refrescar, .eliminar, .reportar, .ayuda, .configuracion, .notificacion{
+        display: none;
+    }
+    .imgR{
+        left: 6vi;
+        width: 8vi;
+        height: 8vi;
+    }
+    .imgA{
+        left: 23vi;
+        width: 8vi;
+        height: 8vi;
+    }
+    .imgL{
+        left: 42vi;
+        width: 15vi;
+        height: 15vi;
+    }
+    .imgB{
+        left: 66vi;
+        width: 8vi;
+        height: 8vi;
+    }
+    .imgP{
+        left: 78vi;
+        width: 8vi;
+        height: 8vi;
+    }
+    .fotitop{
+        left: 88vi;
+        width: 10vi;
+        height: 10vi;
+    }
+/*----------------pop up foto-----------------*/
+.new{
+    top: 30vi;
+    left: 55vi;
+}
+.salir{
+    background: linear-gradient(#FF6f2c 30%,black 31%,#FFFFFF 10%);
+    width:40vi;
+    height: 60vi;
+}
+.fotolo{
+    top:10vi;
+    width: 14vi;
+    height: 14vi;
+    border: 0.6vi solid #FFFFFF;
+    border-radius:8vi;
+}
+.name-salir{
+    top: 23vi;
+    font-size: 3vi;
+}
+.agregar{
+    top: 35vi;
+    left: 5vi;
+    width: 30vi;
+    height: 6vi;
+    font-size: 3.6vi;
+}
+.agregar-media{
+    width: 4vi;
+    height: 4vi;
+}
+.log-out{
+    top: 45vi;
+    left: 5vi;
+    width: 30vi;
+    height: 6vi;
+    font-size: 3.6vi;
+}
+.salir-media{
+    position: relative;
+    display: flex;
+    width: 4vi;
+    height: 4vi;
+    left: -2vi;
+}
+.icono-cerrar{
+    position: absolute;
+    display: flex;
+    background-color: #FF7221;
+    border-radius: 50%;
+    width: 10vi;
+    height: 10vi;
+    top: 55vi;
+    left: 16vi;
+}
+/*-----------------Eliminar-Contenido------------------*/
+.contenido-elimi{
+    border: #FF7221 solid 1.5vi;
+    border-radius: 6vi;
+    width: 70vi;
+    height: 90vi;
+}
+.elimi{
+    font-size: 8vi;
+}
+.di{
+    border-radius: 1vi;
+    border: #707070 solid 0.5vi;
+    bottom: 5vi;
+    width: 50vi;
+    height: 12vi;
+}
+.texto{
+    width: 39vi;
+    font-size: 5vi;
+}
+.digite{
+    font-size: 5vi;
+    bottom: 8.5vi;
+}
+.seguro{
+    font-size: 5vi;
+    bottom: 3vi;
+}
+.elimina{
+    font-size: 4vi;
+    bottom: 5vi;
+    width: 30vi;
+    height: 10vi;
+    border-radius: 5vi;
+}
+}

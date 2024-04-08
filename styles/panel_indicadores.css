@@ -1,0 +1,1179 @@
+@font-face {
+    font-family: 'MyriadProLight';
+    src: url('/fuentes/MyriadProLight.otf') format('truetype');
+}
+@font-face {
+    font-family: 'MyriadProRegular';
+    src: url('/fuentes/MyriadProRegular.ttf') format('truetype');
+}
+/*------------Panel Usuario---------------*/
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cuerpo2{
+    opacity: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    background-image: url(/media/Fondo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: desvanecer;
+    animation-duration: 6s;
+}
+@keyframes desvanecer {
+    0%{opacity: 1;}
+    90%{opacity: 1;}
+    100%{opacity: 0;}
+}
+.logoK2{
+    width: 10.2vi;
+    height: 9.2vi;
+    opacity: 0;
+    animation-name: imagen;
+    animation-delay: 4s;
+    animation-duration: 5s;
+}
+@keyframes imagen {
+    0%{opacity: 1;}
+    90%{opacity: 1;}
+    100%{opacity: 0;}
+}
+.panelUsuario{
+    position: absolute;
+    background-color: #FFFFFF;
+    color: black;
+    width: 48.75vi;
+    height: 28.6vi;
+    border: 0.1vi solid #707070;
+    border-radius: 3.5vi;
+    opacity: 0;
+    text-align: center;
+    animation-name: panelUsuario;
+    animation-duration: 4s;
+}
+@keyframes panelUsuario {
+    0%{opacity: 1;}
+    95%{opacity: 1;}
+    100%{opacity: 0;}
+}
+.karioMedia{
+    position: absolute;
+    width: 5.365vi;
+    height: 6.042vi;
+    top: 1.95vi;
+    left: 21.7vi;
+}
+.Bnuevo{
+    position: absolute;
+    font-family:'MyriadProRegular' ;
+    font-size: 2.084vi;
+    top: 7.5vi;
+    left: 15.6vi;
+}
+.foto{
+    position: absolute;
+    width: 5.521vi;
+    height: 5.521vi;
+    top: 13.5vi;
+    left: 21.6vi;
+}
+
+.nombre{
+    position: absolute;
+    font-family:'MyriadProRegular' ;
+    font-size: 2.084vi;
+    top: 18vi;
+    left: 12.7vi;
+}
+.Admin{
+    position: absolute;
+    font-family:'MyriadProLight';
+    font-size: 1.07vi;
+    top: 23vi;
+    left: 19.7vi;
+}
+/*------------Panel Indicadores---------------*/
+.paginaprincipal{
+    position: absolute;
+    top: 0%;
+    opacity: 1;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    animation-name: desvanecer2;
+    animation-duration: 5s;
+}
+@keyframes desvanecer2 {
+    0%{opacity: 0;}
+    90%{opacity: 0;}
+    98%{opacity: 0;}
+    100%{opacity: 1;}
+}
+.encabezado{
+    display: flex;
+    align-items: center;
+    border-bottom: #707070 solid 0.1vi;
+    height: 8vh;
+    width: 100vw;
+    font-family:'MyriadProRegular';
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+.imgA{
+    position: absolute;
+    display: flex;
+    left: 5vi;
+    width: 1.62vi;
+    height: 1.62vi;
+}
+.añadir{
+    position: absolute;
+    left: 8vi;
+    font-size: 1.25vi;
+    color: black;
+}
+.imgR{
+    position: absolute;
+    display: flex;
+    left: 18vi;
+    width: 1.5vi;
+    height: 1.5vi;
+}
+.refrescar{
+    position: absolute;
+    left: 20vi;
+    font-size: 1.25vi;
+    color: black;
+}
+.imgE{
+    position: absolute;
+    display: flex;
+    left: 30vi;
+    width: 1.4vi;
+    height: 1.7vi;
+}
+.eliminar{
+    position: absolute;
+    left: 32vi;
+    font-size: 1.25vi;
+    color: black;
+}
+.imgL{
+    position: absolute;
+    display: flex;
+    left: 48vi;
+    width: 2.2vi;
+    height: 2vi;
+}
+.imgB{
+    position: absolute;
+    display: flex;
+    left: 63vi;
+    width: 1.78vi;
+    height: 1.98vi;
+}
+.reportar{
+    position: absolute;
+    left: 65vi;
+    font-size: 1.25vi;
+    color: black;
+}
+.imgP{
+    position: absolute;
+    display: flex;
+    left: 75vi;
+    width: 1.78vi;
+    height: 1.78vi;
+}
+.ayuda{
+    position: absolute;
+    left: 77vi;
+    font-size: 1.25vi;
+    color: black;
+}
+.configuracion{
+    position: absolute;
+    display: flex;
+    left: 90vi;
+    width: 1.5vi;
+    height: 1.5vi;
+}
+.notificacion{
+    position: absolute;
+    display: flex;
+    left: 93vi;
+    width: 1.5vi;
+    height: 1.5vi;
+}
+/*----------------pop up foto-----------------*/
+.fotitop{
+    position: absolute;
+    display: flex;
+    left: 96vi;
+    width: 3vi;
+    height: 3vi;  
+}
+.new{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2vi;
+    top: 11.2vi;
+    left: 78vi;
+    box-shadow: 0.5vi 0.5vi 0.5vi rgba(0, 0, 0, 0.3);
+    display: none;
+}
+.new:target{
+    display: flex;
+}
+.salir{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(#FF6f2c 30%,black 31%,#FFFFFF 10%);
+    width:20vi;
+    height: 20vi;
+    border: black solid 0.1px;
+    border-radius: 2vi;
+    z-index: 100;
+}
+.fotolo{
+    display: flex;
+    position: absolute;
+    top:1vi;
+    width: 6vi;
+    height: 6vi;
+    border: 0.3vi solid #FFFFFF;
+    border-radius:4vi;
+    z-index: 1;
+}
+.name-salir{
+    display: flex;
+    position: absolute;
+    top: 7vi;
+    font-size: 1.5vi;
+    font-family:'MyriadProRegular';
+    color: black;
+}
+.agregar{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 11.3vi;
+    left: 2.5vi;
+    width: 15vi;
+    height: 3vi;
+    font-family:'MyriadProRegular';
+    font-size: 1.8vi;
+    color: black;
+    border: #FF6f2c solid 0.1vi;
+    border-radius: 2vi 2vi 0 0;
+}
+.agregar-media{
+    position: relative;
+    display: flex;
+    width: 2.5vi;
+    height: 2vi;
+}
+.log-out{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 15vi;
+    left: 2.5vi;
+    width: 15vi;
+    height: 3vi;
+    font-family:'MyriadProRegular';
+    font-size: 1.8vi;
+    color: black;
+    border: #FF6f2c solid 0.1vi;
+    border-radius: 0 0 2vi 2vi;
+}
+.salir-media{
+    position: relative;
+    display: flex;
+    width: 2.5vi;
+    height: 2.5vi;
+}
+.icono-cerrar{
+    position: absolute;
+    display: flex;
+    background-color: #FF7221;
+    border-radius: 50%;
+    width: 2vi;
+    height: 2vi;
+    top: 19vi;
+    left: 9.1vi;
+}
+/*----------------pop-up-añadir-----------------*/
+.new2{
+    display: flex;
+    position: absolute;
+    top: 3vi;
+    left: 25vi;
+    display: none;
+    box-sizing: border-box;
+    font-family:'MyriadProRegular';
+    font-size: 2vi;
+    color: black;
+}
+.new2:target{
+    display: flex;
+    background: #00000088;
+    position: fixed;
+    padding: 1vi 24vi;
+    inset: 0;
+}
+.pop-añadir{
+    display: flex;
+    position: relative;
+    background: #ffffff;
+    width: 70vi;
+    height: 48vi;
+    border: black solid 0.2vi;
+    border-radius: 2vi;
+    box-shadow: 0.5vi 0.5vi 0.5vi rgba(0, 0, 0, 0.3);
+    z-index: 100;
+}
+.elementos{
+    display: flex;
+    position: absolute;
+    font-size: 3.5vi;
+    bottom: 39vi;
+    left: 13vi;
+}
+.Ind{
+    display: flex;
+    position: absolute;
+    top: 7vi;
+    left:3vi;
+}
+.Ind2{
+    display: flex;
+    position: absolute;
+    background-color: #FFFFFF;
+    border-radius: 0.5vi;
+    border: 0.1vi solid #707070;
+    font-size: 1.5vi;
+    width: 20vi;
+    height: 2.7vi;
+    top: 9.5vi;
+    left: 3vi;
+    padding-left: 1vi;
+}
+.cat{
+    display: flex;
+    position: absolute;
+    top: 7vi;
+    left:27vi;
+}
+.cat2{
+    display: flex;
+    position: absolute;
+    background-color: #FFFFFF;
+    border-radius: 0.5vi;
+    border: 0.1vi solid #707070;
+    font-size: 1.5vi;
+    width: 20vi;
+    height: 2.7vi;
+    top: 9.5vi;
+    left: 27vi;
+    padding-left: 1vi;
+}
+.FI{
+    display: flex;
+    position: absolute;
+    top: 13vi;
+    left:3vi;
+}
+.FI2{
+    display: flex;
+    position: absolute;
+    background-color: #FFFFFF;
+    border-radius: 0.5vi;
+    border: 0.1vi solid #707070;
+    font-size: 1.5vi;
+    width: 20vi;
+    height: 2.7vi;
+    top: 15.5vi;
+    left: 3vi;
+    padding-left: 1vi;
+}
+.FT{
+    display: flex;
+    position: absolute;
+    top: 13vi;
+    left:27vi;
+}
+.FT2{
+    display: flex;
+    position: absolute;
+    background-color: #FFFFFF;
+    border-radius: 0.5vi;
+    border: 0.1vi solid #707070;
+    font-size: 1.5vi;
+    width: 20vi;
+    height: 2.7vi;
+    top: 15.5vi;
+    left: 27vi;
+    padding-left: 1vi;
+}
+.formula{
+    display: flex;
+    position: absolute;
+    top: 19vi;
+    left:3vi;
+}
+.formula2{
+    display: flex;
+    position: absolute;
+    background-color: #FFFFFF;
+    border-radius: 0.5vi;
+    border: 0.1vi solid #707070;
+    font-size: 1.5vi;
+    width: 21vi;
+    height: 3vi;
+    top: 21.5vi;
+    left: 3vi;
+    padding-left: 1vi;
+}
+.frecuencia{
+    display: flex;
+    position: absolute;
+    top: 19vi;
+    left:27vi;
+}
+.frecuencia2{
+    display: flex;
+    position: absolute;
+    background-color: #FFFFFF;
+    border-radius: 0.5vi;
+    border: 0.1vi solid #707070;
+    font-size: 1.5vi;
+    width: 21vi;
+    height: 3vi;
+    top: 21.5vi;
+    left: 27vi;
+    padding-left: 1vi;
+}
+.cump{
+    display: flex;
+    position: absolute;
+    top: 26vi;
+    left:3vi;
+}
+.cump2{
+    display: flex;
+    position: absolute;
+    background-color: #FFFFFF;
+    border-radius: 0.5vi;
+    border: 0.1vi solid #707070;
+    font-size: 1.5vi;
+    width: 20vi;
+    height: 2.7vi;
+    top: 28.5vi;
+    left: 3vi;
+    padding-left: 1vi;
+}
+.area{
+    display: flex;
+    position: absolute;
+    top: 26vi;
+    left:27vi;
+}
+.area2{
+    display: flex;
+    position: absolute;
+    background-color: #FFFFFF;
+    border-radius: 0.5vi;
+    border: 0.1vi solid #707070;
+    font-size: 1.5vi;
+    width: 20vi;
+    height: 2.7vi;
+    top: 28.5vi;
+    left: 27vi;
+    padding-left: 1vi;
+}
+.desc{
+    display: flex;
+    position: absolute;
+    top: 32vi;
+    left:20.8vi;
+}
+.desc2{
+    display: flex;
+    position: absolute;
+    background-color: #FFFFFF;
+    border-radius: 0.5vi;
+    border: 0.1vi solid #707070;
+    font-size: 1.5vi;
+    width: 44vi;
+    height: 6vi;
+    top: 34.5vi;
+    left: 3vi;
+    padding-left: 1vi;
+    resize: none;
+}
+.aña{
+    position: absolute;
+    display: flex;
+    font-family:'MyriadProRegular';
+    background-color: #FF7221;
+    color: rgb(255, 255, 255);
+    font-size: 1.5vi;
+    bottom: 2.5vi;
+    left: 20vi;
+    width: 10vi;
+    height: 3vi;
+    border-radius:3vi;
+    align-items: center;
+    justify-content: center;
+}
+.cerrar{
+    position: absolute;
+    display: flex;
+    width: 2vi;
+    height: 2vi;
+    top: 1vi;
+    left: 48.5vi;
+}
+/*----------------Indicadores-----------------*/
+.Indicadores{
+    position: relative;
+    top: 0.5vi;
+}
+.linea1{
+    height: 4.5vi;
+}
+.titulo_I{
+    position: relative;
+    font-family:'MyriadProRegular' ;
+    font-size: 2vi;
+}
+.Aqui{
+    position: relative;
+    font-family:'MyriadProLight';
+    font-size: 1vi;
+}
+.nombres{
+    position: relative;
+    font-family:'MyriadProRegular' ;
+    font-size: 1vi;
+    width: 83vi;
+    left: 6vi;
+    display: flex;
+    justify-content: space-between;
+}
+.num2{
+    position: relative;
+    left: 3vi;
+}
+.num3{
+    position: relative;
+    left: 6vi;
+}
+.num4{
+    position: relative;
+    left: 3.5vi;
+}
+.num5{
+    position: relative;
+    left: 1vi;
+}
+.num6{
+    position: relative;
+    left: 0vi;
+}
+.num7{
+    position: relative;
+    left: 1vi;
+}
+.num8{
+    position: relative;
+    left: 1vi;
+}
+.Modelado{
+    position: relative;
+    font-family:'MyriadProLight';
+    font-size: 1vi;
+    border: #707070 solid 0.1vi;
+    border-radius: 1vi;
+    width: 85vi;
+    left: 5vi;
+    display: flex;
+    align-items: center;
+    padding: 0 1vi;
+}
+.m2{
+    position: absolute;
+    left: 13vi;
+}
+.m3{
+    position: absolute;
+    left: 27vi;
+}
+.m4{
+    position: absolute;
+    left: 34vi;
+}
+.m5{
+    position: absolute;
+    left:44vi;
+}
+.m6{
+    position: absolute;
+    left: 54.3vi;
+}
+.m7{
+    position: absolute;
+    left: 65vi;
+}
+.m8{
+    position: absolute;
+    left: 81vi;
+}
+.barras{
+    position: relative;
+    left: 93vi;
+    top: -2.6vi;
+    display: flex;
+    flex-wrap: wrap;
+    width: 2vi;
+    height: 2.5vi;
+}
+.barrita1{
+    display: flex;
+    width: 2vi;
+    height: 0.3vi;
+    background-color: black;
+} 
+.barrita2{
+    display: flex;
+    width: 2vi;
+    height: 0.3vi;
+    background-color: black;
+} 
+.barrita3{
+    display: flex;
+    width: 2vi;
+    height: 0.3vi;
+    background-color: black;
+} 
+.progress-bar {
+    position: absolute;
+    top: 0.4vi;
+    left:74vi;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 2.5vi;
+    height: 2.5vi;
+    border-radius: 50%;
+    background: 
+      radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(rgb(255, 0, 0) 31%, rgb(250, 149, 149) 0);    
+  }
+  
+  .progress-bar::before {
+    font-size: 1vi;
+    content: "31%";
+  }
+.progress-bar2 {
+    position: absolute;
+    top: 0.4vi;
+    left:74vi;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 2.5vi;
+    height: 2.5vi;
+    border-radius: 50%;
+    background: 
+      radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(rgb(255, 0, 0) 25%, rgb(250, 149, 149) 0);    
+  }
+  
+.progress-bar2::before {
+    font-size: 1vi;
+    content: "25%";
+}
+.progress-bar3 {
+    position: absolute;
+    top: 0.4vi;
+    left:74vi;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 2.5vi;
+    height: 2.5vi;
+    border-radius: 50%;
+    background: 
+      radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(rgb(0, 255, 0) 80%, rgb(178, 250, 149) 0);    
+}
+  
+.progress-bar3::before {
+    font-size: 1vi;
+    content: "80%";
+}
+.progress-bar4 {
+    position: absolute;
+    top: 0.4vi;
+    left:74vi;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 2.5vi;
+    height: 2.5vi;
+    border-radius: 50%;
+    background: 
+      radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(rgb(255, 0, 0) 32%, rgb(250, 149, 149) 0);    
+}
+  
+.progress-bar4::before {
+    font-size: 1vi;
+    content: "32%";
+}
+.progress-bar5 {
+    position: absolute;
+    top: 0.4vi;
+    left:74vi;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 2.5vi;
+    height: 2.5vi;
+    border-radius: 50%;
+    background: 
+      radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(rgb(0, 255, 0) 80%, rgb(178, 250, 149) 0); 
+}
+ 
+.progress-bar5::before {
+    font-size: 1vi;
+    content: "95%";
+}
+
+.progress-bar6 {
+  position: absolute;
+  top: 0.4vi;
+  left:74vi;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 2.5vi;
+  height: 2.5vi;
+  border-radius: 50%;
+  background: 
+    radial-gradient(closest-side, white 79%, transparent 80% 100%),
+    conic-gradient(rgb(255, 208, 0) 75%, rgb(250, 206, 149) 0);    
+}
+
+.progress-bar6::before {
+  font-size: 1vi;
+  content: "75%";
+}
+.boton_añadir{
+    position: absolute;
+    display: flex;
+    font-family:'MyriadProRegular';
+    background-color: #FF7221;
+    color: rgb(255, 255, 255);
+    font-size: 1vi;
+    top: 42vi;
+    width: 15vi;
+    height: 3vi;
+    border-radius:3vi;
+    align-items: center;
+    justify-content: center;
+    left: 42vi;
+}
+
+/*--------------------Media-Indicadores----------------*/
+@media (max-width: 820px){
+    .logoK2{
+        width: 30vi;
+        height: 30vi;
+    }
+    .panelUsuario{
+        width: 80vi;
+        height: 100vi;
+    }
+    .karioMedia{
+        width: 25vi;
+        height: 25vi;
+        top: 1.95vi;
+        left: 28vi;
+    }
+    .Bnuevo{
+        font-size: 6vi;
+        top: 28vi;
+        left: 15.6vi;
+    }
+    .foto{
+        width: 18vi;
+        height: 18vi;
+        top: 48vi;
+        left: 32vi;
+    }
+    
+    .nombre{
+        font-size: 5vi;
+        top: 66vi;
+        left: 12.7vi;
+    }
+    .Admin{
+        position: absolute;
+        font-size: 5vi;
+        top: 75vi;
+        left: 19.7vi;
+    }
+    .Amedia{
+        display: none;
+    }
+    .encabezado{
+        display: flex;
+        align-items: center;
+        border-bottom: 0.1vi #707070 solid;
+        height: 10vh;
+        width: 100vw;
+        font-family:'MyriadProRegular';
+    }
+    .imgA{
+        position: absolute;
+        left: 1.5vi;
+        width: 4.5vi;
+        height: 5vi;
+        display: none;
+    }
+    .imgR{
+        position: absolute;
+        left: 6vi;
+        width: 8vi;
+        height: 8vi;
+    }
+    .imgE{
+        position: absolute;
+        left: 23vi;
+        width: 8vi;
+        height: 8vi;
+    }
+    .imgL{
+        position: absolute;
+        left: 42vi;
+        width: 15vi;
+        height: 15vi;
+    }
+    .imgB{
+        position: absolute;
+        left: 66vi;
+        width: 8vi;
+        height: 8vi;
+    }
+    .imgP{
+        position: absolute;
+        left: 78vi;
+        width: 8vi;
+        height: 8vi;
+    }
+    .configuracion{
+        display: none;
+    }
+    .notificacion{
+        display: none;
+    }
+    .fotitop{
+        position: absolute;
+        left: 88vi;
+        width: 10vi;
+        height: 10vi;
+    }
+    .linea1{
+        height: 4.5vi;
+    }
+    .titulo_I{
+        position: relative;
+        font-family:'MyriadProRegular' ;
+        font-size: 7vi;
+    }
+    .Aqui{
+        position: relative;
+        font-family:'MyriadProLight';
+        width: 80vi;
+        font-size: 4vi;
+        padding: 2vi 10vi;
+    }
+    .num3,
+    .num4,
+    .num5,
+    .num6,
+    .num7,
+    .num9{
+        display: none;
+    }
+    .nombres{
+        position: relative;
+        font-size: 4vi;
+        width: 83vi;
+        left: 6vi;
+        display: flex;
+        justify-content: space-between;
+        font-family:'MyriadProRegular' ;
+    }
+    .m3,
+    .m4,
+    .m5,
+    .m6,
+    .m7,
+    .m8{
+        display: none;
+    }
+    .linea1{
+        height: 18vi;
+    }
+    .Modelado{
+        font-size: 2.8vi;
+        border-radius: 1vi;
+        width: 85vi;
+        height: 13vi;
+        left: 5vi;
+    }
+    .barra{
+        position: absolute;
+        left:68vi;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        width: 10vi;
+        height: 10vi;
+        border-radius: 50%;
+        top: 1.5vi;
+    }
+    .barra::before{
+        font-size: 4vi;
+    }
+    .barras{
+        display: none;
+    }
+    .new{
+        top: 30vi;
+        left: 55vi;
+    }
+    .salir{
+        background: linear-gradient(#FF6f2c 30%,black 31%,#FFFFFF 10%);
+        width:40vi;
+        height: 60vi;
+    }
+    .fotolo{
+        top:10vi;
+        width: 14vi;
+        height: 14vi;
+        border: 0.6vi solid #FFFFFF;
+        border-radius:8vi;
+    }
+    .name-salir{
+        top: 23vi;
+        font-size: 3vi;
+    }
+    .agregar{
+        top: 35vi;
+        left: 5vi;
+        width: 30vi;
+        height: 6vi;
+        font-size: 3.6vi;
+    }
+    .agregar-media{
+        width: 4vi;
+        height: 4vi;
+    }
+    .log-out{
+        top: 45vi;
+        left: 5vi;
+        width: 30vi;
+        height: 6vi;
+        font-size: 3.6vi;
+    }
+    .salir-media{
+        position: relative;
+        display: flex;
+        width: 4vi;
+        height: 4vi;
+        left: -2vi;
+    }
+    .icono-cerrar{
+        position: absolute;
+        display: flex;
+        background-color: #FF7221;
+        border-radius: 50%;
+        width: 10vi;
+        height: 10vi;
+        top: 55vi;
+        left: 16vi;
+    }
+    .m2{
+        left: 32vi;
+    }
+    .new2:target{
+        padding: 1vi 10vi;
+    }
+    .boton_añadir{
+        font-size: 4vi;
+        top: 165vi;
+        width: 40vi;
+        height: 15vi;
+        left: 30vi;
+    }
+    .pop-añadir{
+        width: 90vi;
+        height: 100vi;
+        border-radius: 2vi;
+    }
+    .elementos{
+        font-size: 6vi;
+        top: -5vi;
+        left: 18vi;
+    }
+    .Ind{
+        font-size: 4vi;
+        top: 14vi;
+    }
+    .Ind2{
+        font-size: 3vi;
+        width: 30vi;
+        height: 4vi;
+        top: 19vi;
+    }
+    .cat{
+        font-size: 4vi;
+        top: 14vi;
+        left:40vi;
+    }
+    .cat2{
+        font-size: 3vi;
+        width: 34.5vi;
+        height: 4vi;
+        top: 19vi;
+        left: 40vi;
+    }
+    .FI{
+        font-size: 4vi;
+        top: 26vi;
+    }
+    .FI2{
+        font-size: 3vi;
+        width: 30vi;
+        height: 4vi;
+        top: 31vi;
+    }
+    .FT{
+        font-size: 4vi;
+        top: 25vi;
+        left:40vi;
+    }
+    .FT2{
+        font-size: 3vi;
+        width: 34.5vi;
+        height: 4vi;
+        top: 31vi;
+        left: 40vi;
+    }
+    .formula{
+        font-size: 4vi;
+        top: 38vi;
+    }
+    .formula2{
+        font-size: 3.5vi;
+        width: 32vi;
+        height: 4vi;
+        top: 43vi;
+    }
+    .frecuencia{
+        font-size: 4vi;
+        top: 38vi;
+        left: 40vi;
+    }
+    .frecuencia2{
+        font-size: 3.5vi;
+        width: 36vi;
+        height: 4vi;
+        top: 43vi;
+        left: 40vi;
+    }
+    .cump{
+        font-size: 4vi;
+        top: 49vi;
+    }
+    .cump2{
+        font-size: 3.5vi;
+        width: 32vi;
+        height: 4vi;
+        top: 54vi;
+    }
+    .area{
+        font-size: 4vi;
+        top: 49vi;
+        left:40vi;
+    }
+    .area2{
+        font-size: 3.5vi;
+        width: 35vi;
+        height: 4vi;
+        top: 54vi;
+        left: 40vi;
+    }
+    .desc{
+        font-size: 4vi;
+        top: 62vi;
+        left: 30vi;
+    }
+    .desc2{
+        font-size: 3vi;
+        width: 71.3vi;
+        height: 15vi;
+        top: 70vi;
+    }
+    .aña{
+        font-size: 3vi;
+        bottom: 4vi;
+        left: 24vi;
+        width: 30vi;
+        height: 6vi;
+    }
+    .cerrar{
+        width: 4vi;
+        height: 4vi;
+        top: 1vi;
+        left: 73vi;
+    }
+
+}
+/*----------------------------------*/
