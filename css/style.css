@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'MyriadProLight';
-    src: url('/fuentes/MyriadProLight.otf') format('truetype');
+    src: url('../storage/fonts/MyriadProLight.otf') format('truetype');
 }
 @font-face {
     font-family: 'MyriadProRegular';
-    src: url('/fuentes/MyriadProRegular.ttf') format('truetype');
+    src: url('../storage/fonts/MyriadProRegular.ttf') format('truetype');
 }
 body{
     margin: 0;
@@ -16,7 +16,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     background-color: black;
-    background-image: url(/media/Fondo.png);
+    background-image: url(../storage/img/Fondo.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
